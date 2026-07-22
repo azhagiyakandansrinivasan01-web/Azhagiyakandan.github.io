@@ -1315,3 +1315,150 @@ text-shadow:
 0 0 10px #00FF88;
 
 }
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav{
+        padding:15px 20px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    /* Hero */
+    .hero{
+        padding:100px 20px;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    /* Sections */
+    section{
+        padding:80px 20px;
+    }
+
+    /* About */
+    .about-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about img{
+        width:220px;
+        margin-bottom:25px;
+    }
+
+    /* Skills */
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Projects */
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    .project-card img{
+        height:200px;
+    }
+
+    /* GitHub */
+    .github-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Contact */
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .contact-info{
+        order:2;
+    }
+
+    .contact-form{
+        order:1;
+    }
+
+    /* Footer */
+    .footer-links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    /* General Images */
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+    /* Prevent horizontal scrolling */
+    body{
+        overflow-x:hidden;
+    }
+}
+@media (max-width:480px){
+
+    h1{
+        font-size:34px;
+    }
+
+    h2{
+        font-size:28px;
+    }
+
+    p{
+        font-size:15px;
+    }
+
+    .project-card{
+        margin:0;
+    }
+
+    .skill-card,
+    .github-card,
+    .contact-card{
+        padding:18px;
+    }
+
+    .terminal-window{
+        width:95%;
+        height:80vh;
+    }
+
+    .terminal-input{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .terminal-input span{
+        margin-right:0;
+    }
+}
