@@ -45,7 +45,7 @@ const words = [
 
 "Cybersecurity Enthusiast",
 
-"Future Software Engineer",
+"UG Student",
 
 "Open Source Learner"
 
